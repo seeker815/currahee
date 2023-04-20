@@ -1,0 +1,18 @@
+config:
+  environment: dev
+  gcp:project: gcp-dryrun
+  gcp:zone: us-east1-b
+  gke:clusterName: dryrun
+  gke:clusterNodeCount: 1
+  gke:primaryNodeCount: 3
+  gke:primaryNodeDiskSize: 50
+  gke:secondaryNodeDiskSize: 50
+  gke:secondaryNodeCount: 3
+  gke:nodeMachineType: e2-small
+  gke:secondaryNodeMachineType: e2-small
+  gke:clusterLocation: us-east1-b
+  gke:clusterNetwork: default
+  gke:clusterMasterCIDR: 10.5.0.0/28
+  gke:clusterPodIPCIDR: 10.8.0.0/14
+  gke:clusterSvcIPCIDR: 10.4.0.0/19
+  gke:clusterExtNetwork1: 49.207.202.0/24
