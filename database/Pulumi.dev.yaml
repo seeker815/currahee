@@ -1,0 +1,14 @@
+config:
+  gcp:project: gcp-dryrun
+  environment: dev
+  primaryNodePool: primary-nodes-b4e8c18
+  
+  neo4j:neo4jCoreHelmChartVersion: 5.3.0
+  neo4j:neo4jHeadlessHelmChartVersion: 5.3.0
+  neo4j:neo4jHelmRepository: https://helm.neo4j.com/neo4j
+  
+  neo4j:neo4jReleaseName: neo4j-dev
+  neo4j:neo4jStorage: standard-rwo
+  neo4j:neo4jCoreMemRequests: 12Gi
+  neo4j:neo4jCoreMemLimits: 14Gi
+  neo4j:neo4jCoreCpuLimits: 2000m
